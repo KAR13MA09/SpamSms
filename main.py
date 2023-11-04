@@ -7,12 +7,14 @@ class Main:
 
 	def menu(self):
 		print("""
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;       S P A M  S M S      ;
 		;---------------------------;
-		;     Devloper : KAR13MA09  ;
+		;    Devloper : KAR13MA09   ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 NOTE: This tool's only work for Indonesia number phone.
-	           telegram:@Davidtuantu23  
+
 1. SMS Gratis
 2. OTP Matahari
 3. OTP Hallodok
