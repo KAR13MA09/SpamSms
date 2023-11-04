@@ -7,15 +7,15 @@ class Main:
 
 	def menu(self):
 		print("""
-		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;             𝐒 𝐏 𝐀 𝐌 𝐒 𝐌 𝐒               ;
-                ;  Dùng Nào Bug Liên hệ qua tele nha mài ! ;
-		;------------------------------------------;
-		;          Devloper : KAR13MA09            ;
-                ;         telegram:@Davidtuantu23          ;
-		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;        𝐒 𝐏 𝐀 𝐌 𝐒 𝐌 𝐒     ;
+		;---------------------------;
+		;     Devloper : KAR13MA09  ;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 NOTE: This tool's only work for Indonesia number phone.
+	           telegram:@Davidtuantu23
+		Dùng Nào Bug Liên hệ qua tele nha mài !   
 
 1. SMS Gratis
 2. OTP Matahari
@@ -23,7 +23,7 @@ NOTE: This tool's only work for Indonesia number phone.
 4. OTP Olx.co.id
 5. OTP Sociolla.com
 """)
-		pilih=int(input('Nguyentrinhtuantu/> '))
+		pilih=int(input('root/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
@@ -53,3 +53,4 @@ except KeyboardInterrupt:
 	exit('[Exit] Key interrupt')
 except Exception as F:
 	print('Err: %s'%(F))
+
