@@ -8,13 +8,11 @@ class Main:
 	def menu(self):
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;                                          ;
 		;             𝐒 𝐏 𝐀 𝐌 𝐒 𝐌 𝐒               ;
-		;                                          ;
                 ;  Dùng Nào Bug Liên hệ qua tele nha mài ! ;
 		;------------------------------------------;
-		;    Devloper : KAR13MA09                  ;
-                ;  telegram:@Davidtuantu23                 ;
+		;          Devloper : KAR13MA09            ;
+                ;         telegram:@Davidtuantu23          ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 NOTE: This tool's only work for Indonesia number phone.
