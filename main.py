@@ -26,7 +26,7 @@ class Main:
 4. OTP Olx.co.id
 5. OTP Sociolla.com	
 """)
-		pilih=int(input('noobie/> '))
+		pilih=int(input('KAR13MA09/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
