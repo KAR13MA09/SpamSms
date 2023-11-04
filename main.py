@@ -4,27 +4,26 @@ class Main:
 
       def __init__(self):
               self.detekos()
+def tools():
+    clear()
+    stdout.write("                                                                                  \n")
+    stdout.write("          "+Fore.LIGHTWHITE_EX   +"███╗   ██╗████████╗████████╗████████╗ \n")
+    stdout.write("          "+Fore.LIGHTCYAN_EX    +"████╗  ██║╚══██╔══╝╚══██╔══╝╚══██╔══╝ \n")
+    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██╔██╗ ██║   ██║      ██║      ██║    \n")
+    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██║╚██╗██║   ██║      ██║      ██║    \n")
+    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██║ ╚████║   ██║      ██║      ██║    \n")
+    stdout.write("          "+Fore.LIGHTCYAN_EX    +"╚═╝  ╚═══╝   ╚═╝      ╚═╝      ╚═╝    \n")
 
-      def menu(self):
-		print("""
-		     ███╗   ██╗████████╗████████╗████████╗  
-                     ████╗  ██║╚══██╔══╝╚══██╔══╝╚══██╔══╝  
-                     ██╔██╗ ██║   ██║      ██║      ██║     
-                     ██║╚██╗██║   ██║      ██║      ██║     
-                     ██║ ╚████║   ██║      ██║      ██║     
-                     ╚═╝  ╚═══╝   ╚═╝      ╚═╝      ╚═╝                       
-		--------------------------------------------
-                             TOOL BY KAR13MA09
 
 
     NOTE: Công cụ này chỉ dùng được cho số điện thoại Việt Nam hoặc Indonesia 
 
-1. SMS Gratis
-2. OTP Matahari
-3. OTP Hallodok
-4. OTP Olx.co.id
-5. OTP Sociolla.com	
-""")
+                        1. SMS Gratis
+                        2. OTP Matahari
+                        3. OTP Hallodok
+                        4. OTP Olx.co.id
+                        5. OTP Sociolla.com	
+
 		pilih=int(input('KAR13MA09/> '))
 		if pilih == 1:
 			import src.payu
