@@ -1,30 +1,27 @@
-import os,time,sys.shutil
+import os,time,sys,shutil
 
 class Main:
 
-      def __init__(self):
-              self.detekos()
-def tools():
-    clear()
-    stdout.write("                                                                                  \n")
-    stdout.write("          "+Fore.LIGHTWHITE_EX   +"███╗   ██╗████████╗████████╗████████╗ \n")
-    stdout.write("          "+Fore.LIGHTCYAN_EX    +"████╗  ██║╚══██╔══╝╚══██╔══╝╚══██╔══╝ \n")
-    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██╔██╗ ██║   ██║      ██║      ██║    \n")
-    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██║╚██╗██║   ██║      ██║      ██║    \n")
-    stdout.write("          "+Fore.LIGHTCYAN_EX    +"██║ ╚████║   ██║      ██║      ██║    \n")
-    stdout.write("          "+Fore.LIGHTCYAN_EX    +"╚═╝  ╚═══╝   ╚═╝      ╚═╝      ╚═╝    \n")
+	def __init__(self):
+		self.detekos()
 
+	def menu(self):
+		print("""
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;       S P A M  S M S      ;
+		;---------------------------;
+		;     Devloper : KAR13MA09  ;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+NOTE: This tool's only work for Indonesia number phone.
 
-    NOTE: Công cụ này chỉ dùng được cho số điện thoại Việt Nam hoặc Indonesia 
-
-                        1. SMS Gratis
-                        2. OTP Matahari
-                        3. OTP Hallodok
-                        4. OTP Olx.co.id
-                        5. OTP Sociolla.com	
-
-		pilih=int(input('KAR13MA09/> '))
+1. SMS Gratis
+2. OTP Matahari
+3. OTP Hallodok
+4. OTP Olx.co.id
+5. OTP Sociolla.com
+""")
+		pilih=int(input('noobie/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
@@ -53,4 +50,4 @@ try:
 except KeyboardInterrupt:
 	exit('[Exit] Key interrupt')
 except Exception as F:
-	print('Err: %s'%(F))    
+	print('Err: %s'%(F))
