@@ -23,7 +23,7 @@ NOTE: This tool's only work for Indonesia number phone.
 4. OTP Olx.co.id
 5. OTP Sociolla.com
 """)
-		pilih=int(input('noobie/> '))
+		pilih=int(input('Nguyentrinhtuantu/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
